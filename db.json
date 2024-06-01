@@ -1,0 +1,52 @@
+{
+    "songs": [
+        {
+            "title": "Wrong Times Say Đắm Trong Lần Đầu Nhắn Nhủ Lan Man",
+            "artist": "Pii Music",
+            "logo": "img/1.webp",
+            "url": "song/song1.mp3"
+        },
+        {
+            "title": "Wrong Times Đợi 52Hz ft Puppy Lan Man Nhắn Nhủ Anh Chỉ Muốn",
+            "artist": "Pii Music",
+            "logo": "img/1.webp",
+            "url": "song/song2.mp3"
+        },
+        {
+            "title": "Wrong Times Đợi  52Hz ft Puppy Lan Man Nhắn Nhủ Khó Fine",
+            "artist": "Pii Music",
+            "logo": "img/1.webp",
+            "url": "song/song3.mp3"
+        },
+        {
+            "title": "Wrong Times  Mưa Cứ Rơi Đợi Mê Cung Tình Yêu  52Hz",
+            "artist": "Pii Music",
+            "logo": "img/1.webp",
+            "url": "song/song4.mp3"
+        },
+        {
+            "title": "Nắng Có Mang Em Về",
+            "artist": "Shartnuss Official",
+            "logo": "img/2.webp",
+            "url": "song/song5.mp3"
+        },
+        {
+            "title": "1 Phút, Nhưng Giờ Đây Anh Đang Thật Sự Rất Nhớ Em, Kẻ Mộng Mơ",
+            "artist": "Pii Music",
+            "logo": "img/3.webp",
+            "url": "song/song6.mp3"
+        },
+        {
+            "title": "Nhắn Nhủ, Anh Chỉ Muốn, Lan Man, Khi Mà, Nói Dối",
+            "artist": "Duck MeloRap",
+            "logo": "img/4.webp",
+            "url": "song/song7.mp3"
+        },
+        {
+            "title": "GIAI ĐIỆU TÌNH SUY 03",
+            "artist": "Vsoul, Ronboogz, Winno, Tlinh,...",
+            "logo": "img/5.webp",
+            "url": "song/song7.mp3"
+        }
+    ]
+}

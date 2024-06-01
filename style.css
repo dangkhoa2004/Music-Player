@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Rubik", sans-serif;
+}
+
+/* === TOP === */
+.nav-top {
+    margin-top: 10px;
+    background-color: #121212;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    border-radius: 15px;
+}
+
+/* === CONTENT === */
+.content-music {
+    height: 776px;
+    display: flex;
+    background-color: #000;
+}
+
+.left-content {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: #121212;
+}
+
+.mid-content {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #121212;
+}
+
+.right-content {
+    margin: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: #121212;
+}
+
+.nav-category {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    border-radius: 15px;
+    display: flex;
+}
+
+.card-play {
+    display: flex;
+}
+
+
+
+/* === BOTTOM === */
+.nav-bottom {
+    border-radius: 15px;
+    background-color: #121212;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    /* Chiều cao cố định cho thanh điều khiển âm thanh */
+    overflow: hidden;
+    /* Ẩn nội dung vượt quá chiều cao cố định */
+}
+
+.detail-playing {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.detail-song {
+    overflow: hidden;
+    /* Ẩn nội dung văn bản vượt quá */
+    text-overflow: ellipsis;
+    /* Thêm dấu ba chấm cho văn bản dài */
+    white-space: nowrap;
+    /* Ngăn văn bản xuống dòng */
+}
+
+.detail-song h2,
+.detail-song p {
+    margin: 0;
+    /* Loại bỏ khoảng cách trên và dưới */
+}
+
+.status-controller {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-playing {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    /* Điều chỉnh khoảng cách */
+}
+
+.status-progress {
+    display: flex;
+    align-items: center;
+}
+
+.current-song {
+    width: 25%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.current-song input[type="range"] {
+    width: 100%;
+}
+
+/* Phụ */
+.mid-content {
+    max-height: auto;
+    /* Giới hạn chiều cao, bạn có thể điều chỉnh giá trị này */
+    overflow-y: auto;
+    /* Kích hoạt cuộn dọc */
+    scrollbar-color: #121212 black;
+    /* Màu của thanh cuộn và của thumb (nút kéo) */
+    scrollbar-width: unset;
+}
+
+.favorite-card {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line */
+}
+
+.single-favorite {
+    margin: 10px;
+    border-radius: 15px;
+    flex: 1 1 calc(25% - 20px);
+    transition: 0.4s;
+}
+
+.single-favorite:hover {
+    cursor: pointer;
+    scale: 0.95;
+}
+
+.single-favorite img {
+    width: 200px;
+    height: 200px;
+    transition: 0.4s;
+}
+
+.detail-playing img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#seekBar,
+#volumeBar {
+    margin: 0 10px;
+}
+
+#currentTime,
+#duration {
+    margin: 0 5px;
+}

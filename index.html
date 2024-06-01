@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html ng-app="musicApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player | FPOLY Hải Phòng</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body ng-controller="MusicController">
+    <div class="nav-top">
+        <div class="more">
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+        <div class="screen">
+            <i class="fa-solid fa-minus"></i>
+            <i class="fa-solid fa-expand"></i>
+            <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+    </div>
+    <div class="content-music">
+        <div class="left-content">
+            <div class="side-bar1">
+                home
+                search
+            </div>
+            <div class="side-bar2">
+                <h1>Your libary</h1>
+                <button>Playlist</button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="mid-content">
+            <div class="nav-play">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                <button class=" btn-susscess">Explore Premium</button>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user-group"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="nav-category">
+                <div class="category">
+                    <button>All</button>
+                    <button>Music</button>
+                    <button>Podcasts</button>
+                </div>
+                <div class="card-play">
+                    <div class="singgle-card-play">
+                        <img src="" alt="">
+                        ảnh
+                        <h4>Vũ. Radio</h4>
+                    </div>
+                    <div class="singgle-card-play">
+                        <img src="" alt="">
+                        ảnh
+                        <h4>Sơn Tùng MTP</h4>
+                    </div>
+                    <div class="singgle-card-play">
+                        <img src="" alt="">
+                        ảnh
+                        <h4>Hiếu thứ hai</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-favorite">
+                <div class="favorite-title">
+                    <h1>Made for Personal</h1>
+                </div>
+                <div class="favorite-card">
+                    <div class="single-favorite" ng-repeat="song in songs" ng-click="playSong(song)">
+                        <div class="img-single-favorite">
+                            <img src="{{song.logo}}" alt="">
+                        </div>
+                        <h3>{{song.title}}</h3>
+                        <p>{{song.artist}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="banner">
+                <img src="" alt="">
+            </div>
+            <div class="banner-detail">
+                <h1>VIFON Việt Nam</h1>
+                <h4>Advertisment</h4>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+    <div class="nav-bottom">
+        <div class="audio-controls">
+            <div class="detail-playing">
+                <img src="{{currentSong.logo}}" alt="">
+                <div class="detail-song">
+                    <h5>{{currentSong.title}}</h5>
+                    <p>{{currentSong.artist}}</p>
+                </div>
+            </div>
+            <div class="status-controller">
+                <div class="status-playing">
+                    <button ng-click="prevSong()">&#9664;</button>
+                    <button ng-click="togglePlay()">{{ isPlaying ? '❚❚' : '►' }}</button>
+                    <button ng-click="nextSong()">&#9654;</button>
+                </div>
+                <div class="status-progress">
+                    <input type="range" id="seekBar" value="0" ng-model="seekValue">
+                    <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+                </div>
+            </div>
+            <div class="current-song">
+                Âm lượng
+                <input type="range" id="volumeBar" value="100">
+                <audio id="audioPlayer">
+                    <source ng-src="{{ currentSong.url }}" type="audio/mpeg">
+                    Trình duyệt của bạn không hỗ trợ các yếu tố âm thanh.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
