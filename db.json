@@ -1,52 +1,49 @@
 {
     "songs": [
         {
-            "title": "Wrong Times Say Đắm Trong Lần Đầu Nhắn Nhủ Lan Man",
-            "artist": "Pii Music",
-            "logo": "img/1.webp",
-            "url": "song/song1.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Em làm gì mùa dịch.mp3"
         },
         {
-            "title": "Wrong Times Đợi 52Hz ft Puppy Lan Man Nhắn Nhủ Anh Chỉ Muốn",
-            "artist": "Pii Music",
-            "logo": "img/1.webp",
-            "url": "song/song2.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Ổ Quỷ.mp3"
         },
         {
-            "title": "Wrong Times Đợi  52Hz ft Puppy Lan Man Nhắn Nhủ Khó Fine",
-            "artist": "Pii Music",
-            "logo": "img/1.webp",
-            "url": "song/song3.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/An Thần.mp3"
         },
         {
-            "title": "Wrong Times  Mưa Cứ Rơi Đợi Mê Cung Tình Yêu  52Hz",
-            "artist": "Pii Music",
-            "logo": "img/1.webp",
-            "url": "song/song4.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/237 độ C.mp3"
         },
         {
-            "title": "Nắng Có Mang Em Về",
-            "artist": "Shartnuss Official",
-            "logo": "img/2.webp",
-            "url": "song/song5.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Blue Tequila.mp3"
         },
         {
-            "title": "1 Phút, Nhưng Giờ Đây Anh Đang Thật Sự Rất Nhớ Em, Kẻ Mộng Mơ",
-            "artist": "Pii Music",
-            "logo": "img/3.webp",
-            "url": "song/song6.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Nếu lúc đó.mp3"
         },
         {
-            "title": "Nhắn Nhủ, Anh Chỉ Muốn, Lan Man, Khi Mà, Nói Dối",
-            "artist": "Duck MeloRap",
-            "logo": "img/4.webp",
-            "url": "song/song7.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Tình ca tình ta.mp3"
         },
         {
-            "title": "GIAI ĐIỆU TÌNH SUY 03",
-            "artist": "Vsoul, Ronboogz, Winno, Tlinh,...",
-            "logo": "img/5.webp",
-            "url": "song/song8.mp3"
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Vì Anh Đâu Có Biết.mp3"
+        },
+        {
+            "artist": "Spotify",
+            "logo": "img/1.png",
+            "url": "song/Wn  3107 full album.mp3"
         }
     ]
 }

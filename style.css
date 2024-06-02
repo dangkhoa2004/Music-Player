@@ -145,7 +145,7 @@ body {
 }
 
 .current-song input[type="range"] {
-    width: 100%;
+    width: 40%;
 }
 
 /* Phụ */
