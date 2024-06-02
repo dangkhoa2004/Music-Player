@@ -75,6 +75,10 @@ app.controller('MusicController', function ($scope, $http) {
         audioPlayer.volume = volumeBar.value / 100;
     });
 
+    audioPlayer.addEventListener('ended', function () {
+        $scope.$apply($scope.nextSong);
+    });
+
     function formatTime(seconds) {
         var minutes = Math.floor(seconds / 60);
         seconds = Math.floor(seconds % 60);

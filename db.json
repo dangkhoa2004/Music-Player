@@ -2,47 +2,47 @@
     "songs": [
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/1.jpg",
             "url": "song/Em làm gì mùa dịch.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/2.jpg",
             "url": "song/Ổ Quỷ.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/3.jpg",
             "url": "song/An Thần.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/4.jpg",
             "url": "song/237 độ C.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/5.jpg",
             "url": "song/Blue Tequila.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/6.jpg",
             "url": "song/Nếu lúc đó.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/7.jpg",
             "url": "song/Tình ca tình ta.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/8.jpg",
             "url": "song/Vì Anh Đâu Có Biết.mp3"
         },
         {
             "artist": "Spotify",
-            "logo": "img/1.png",
+            "logo": "img/9.jpg",
             "url": "song/Wn  3107 full album.mp3"
         }
     ]
